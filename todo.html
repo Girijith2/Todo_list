@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="maindiv">
+       <div id="firstdiv">
+        <div id="todo">
+            <h1 style="font-size: 30px;">To-do List</h1>
+            <label for="title"><b>Title :
+            </b></label><input type="text" name="title" id="title" placeholder="Title"><br>
+            <label for="todays"><b>Day Plan :
+            </b></label><input type="text" name="todays" id="todays" placeholder="happy day"><br>
+           
+            <input type="submit" onclick="newTag()"  id="submit" value="Add To Days"> 
+        </div>
+       </div>
+       <div id="seconddiv"></div>
+    </div>
+</body>
+<script src="todo.js"></script>
+</html>
